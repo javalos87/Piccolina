@@ -1,0 +1,24 @@
+/* Footer */
+.footer {
+  background-color: #6969ff;
+  height: 5%vh;
+}
+.footer .container {
+  background-color: #6969ff;
+}
+.footer-sm {
+  text-align: center;
+  background-color: #6969ff;
+  color: white;
+}
+.footer-sm a {
+  color: white;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
