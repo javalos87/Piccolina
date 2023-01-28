@@ -126,3 +126,14 @@ p {
   outline: 0;
   border: 1px solid #97d848;
 }
+
+.header {
+  color: #36a0ff;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #36a0ff;
+}
