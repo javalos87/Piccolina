@@ -33,9 +33,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg  py-1 fixed-top menu ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="index.html">
             <img src="../images/logo.png" alt="Piccolina" width="80rem" />
           </a>
           <button
@@ -52,36 +52,39 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link text-secondary" aria-current="page" href="../index.html"
                   >INICIO</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="candy.html"
+                <a
+                  class="nav-link text-secondary"
+                  aria-current="page"
+                  href="./candy.html"
                   >CANDY</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link text-secondary"
                   aria-current="page"
-                  href="sublimacion.html"
+                  href="./sublimacion.html"
                   >SUBLIMACION</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gift.html"
+                <a
+                  class="nav-link text-secondary "
+                  aria-current="page"
+                  href="./gift.html"
                   >GIFT</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link text-white active "
                   aria-current="page"
-                  href="contactos.html"
+                  href="./contactos.html"
                   >CONTACTOS</a
                 >
               </li>
@@ -91,88 +94,98 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <div class="contact_form">
-          <div class="formulario">
-            <h1>Formulario de contacto</h1>
-            <h3>Escríbenos y en breve nos pondremos en contacto</h3>
-            <form action="submeter-formulario.php" method="post">
-              <p>
-                <label for="nombre" class="colocar_nombre"
-                  >Nombre
-                  <span class="obligatorio">*</span>
-                </label>
-                <input
-                  type="text"
-                  name="introducir_nombre"
-                  id="nombre"
-                  required="obligatorio"
-                  placeholder="Escribe tu nombre"
-                />
-              </p>
-              <p>
-                <label for="email" class="colocar_email"
-                  >Email
-                  <span class="obligatorio">*</span>
-                </label>
-                <input
-                  type="email"
-                  name="introducir_email"
-                  id="email"
-                  required="obligatorio"
-                  placeholder="Escribe tu Email"
-                />
-              </p>
-              <p>
-                <label for="telefone" class="colocar_telefono">Teléfono </label>
-                <input
-                  type="tel"
-                  name="introducir_telefono"
-                  id="telefono"
-                  placeholder="Escribe tu teléfono"
-                />
-              </p>
-              <p>
-                <label for="mensaje" class="colocar_mensaje"
-                  >Mensaje
-                  <span class="obligatorio">*</span>
-                </label>
-                <textarea
-                  name="introducir_mensaje"
-                  class="texto_mensaje"
-                  id="mensaje"
-                  required="obligatorio"
-                  placeholder="Deja aquí tu comentario..."
-                ></textarea>
-              </p>
-              <button type="submit" name="enviar_formulario" id="enviar">
-                <p>Enviar</p>
-              </button>
-              <p class="aviso">
-                <span class="obligatorio"> * </span>los campos son obligatorios.
-              </p>
-            </form>
-          </div>
+        <section class="candy">
+        <div class="row">
+            <div class="col">
+            <div class="contact_form">
+              <div class="formulario">
+                <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve nos pondremos en contacto</h3>
+    
+                <form action="submeter-formulario.php" method="post">
+                  <p>
+                    <label for="nombre" class="colocar_nombre"
+                      >Nombre
+                      <span class="obligatorio">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="introducir_nombre"
+                      id="nombre"
+                      required="obligatorio"
+                      placeholder="Escribe tu nombre"
+                    />
+                  </p>
+    
+                  <p>
+                    <label for="email" class="colocar_email"
+                      >Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      name="introducir_email"
+                      id="email"
+                      required="obligatorio"
+                      placeholder="Escribe tu Email"
+                    />
+                  </p>
+    
+                  <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono </label>
+                    <input
+                      type="tel"
+                      name="introducir_telefono"
+                      id="telefono"
+                      placeholder="Escribe tu teléfono"
+                    />
+                  </p>
+    
+                  <p>
+                    <label for="mensaje" class="colocar_mensaje"
+                      >Mensaje
+                      <span class="obligatorio">*</span>
+                    </label>
+                    <textarea
+                      name="introducir_mensaje"
+                      class="texto_mensaje"
+                      id="mensaje"
+                      required="obligatorio"
+                      placeholder="Deja aquí tu comentario..."
+                    ></textarea>
+                  </p>
+    
+                  <button class="button1" type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                  </button>
+    
+                  <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p>
+                </form>
+              </div>
+            </div>
+           </div>
         </div>
-      </div> 
+        </section>
+    </main>
     <!--COMIENZA EL FOOTER-->
-    <div class="container-fluid">
-      <footer class="bg-light text-center text-lg-start">
-        <div
-          class="row text-center"
-          style="background-color: rgba(45, 45, 238, 0)"
-        >
-          <div class="col"></div>
-          <div class="col">Creada por Jorge Avalos &copy; Copyright 2023</div>
-          <div class="col d-flex justify-content-end">
+  <footer>
+    <section class="py-3 text-center text-sm-start pie">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h6>Creada por Jorge Avalos &copy; Copyright 2023</h6>
+            
+          </div class="d-sm-flex align-items-left footer-sm">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
         </div>
-      </footer>
-    </div>
-
+      </div>
+    </section>
+  </footer>
+    
 
     <!-- JS Bootstrap -->
     <script
