@@ -33,9 +33,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg  py-1 fixed-top menu ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="index.html">
             <img src="../images/logo.png" alt="Piccolina" width="80rem" />
           </a>
           <button
@@ -52,36 +52,39 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link text-secondary" aria-current="page" href="../index.html"
                   >INICIO</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="candy.html"
+                <a
+                  class="nav-link text-white active"
+                  aria-current="page"
+                  href="./candy.html"
                   >CANDY</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link text-secondary"
                   aria-current="page"
-                  href="sublimacion.html"
+                  href="./sublimacion.html"
                   >SUBLIMACION</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gift.html"
+                <a
+                  class="nav-link text-secondary "
+                  aria-current="page"
+                  href="./gift.html"
                   >GIFT</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active"
+                  class="nav-link text-secondary "
                   aria-current="page"
-                  href="contactos.html"
+                  href="./contactos.html"
                   >CONTACTOS</a
                 >
               </li>
@@ -90,128 +93,76 @@
         </div>
       </nav>
     </header>
-
     <main>
-      <div class="container candy">
-        <div class="card m-2 mb-2">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <div class="img-box">
-                <img
-                  class="imagenes"
-                  src="../images/mockaroon.jpg"
-                  alt="mockaroon"
-                />
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Candy Personalizados</h5>
-                <p class="card-text">
-                  This is a horizontal card. This card was created using the
-                  Bootstrap grid system. The card is 12 columns wide: The image
-                  takes up four columns and the text takes up 8 columns,
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container candy">
-        <section id="intro-section">
-          <div class="container candy">
-            <div class="row">
-              <div class="col-6">
-                <h1 class="display-2">
-                  <span class="display-2--intro">Candy Personalizados</span>
-                  <span class="display-2--description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eum nemo sit eligendi hic ipsam? Delectus eius fugiat
-                    corporis at. Nobis.
-                  </span>
-                </h1>
-              </div>
-              <div class="col-6">
-                <div class="img-box">
-                  <img
-                    class="imagenes"
-                    src="../images/mockaroon.jpg"
-                    alt="mockaroon"
-                  />
+          <section class="candy candy-card">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                  <img src="../images/mockaroon.jpg" alt="mockaroon" class="img-fluid imagenes" />
+                </div>
+                <div class="col-md p-5">
+                  <h2 class="text-white">Candy Personalizados</h2>
+                  <p class="lead text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                    doloribus distinctio sit. Assumenda, perferendis doloremque.
+                  </p>
+               
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section id="intro-section">
-          <div class="container candy">
-            <div class="row">
-              <div class="col">
-                <h1 class="display-2">
-                  <span class="display-2--intro">Elige tu personaje</span>
-                  <span class="display-2--description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eum nemo sit eligendi hic ipsam? Delectus eius fugiat
-                    corporis at. Nobis.
-                  </span>
-                </h1>
-              </div>
-              <div class="col">
-                <div class="img-box">
-                  <img
-                    class="imagenes"
-                    src="../images/personajes.jpg"
-                    alt="personajes"
-                  />
+          </section>
+          <section class="candy-card">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                                <div class="col-md p-5">
+                  <h2 class="text-white">Elige Tu Personaje</h2>
+                  <p class="lead text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                    doloribus distinctio sit. Assumenda, perferendis doloremque.
+                  </p>
+                               </div>
+                <div class="col-md">
+                  <img src="../images/personajes.jpg" alt="Personaje" class="img-fluid imagenes" />
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <section id="intro-section">
-          <div class="container candy">
-            <div class="row">
-              <div class="col">
-                <h1 class="display-2">
-                  <span class="display-2--intro">Elige tu mobiliario</span>
-                  <span class="display-2--description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Eum nemo sit eligendi hic ipsam? Delectus eius fugiat
-                    corporis at. Nobis.
-                  </span>
-                </h1>
-              </div>
-              <div class="col">
-                <div class="img-box">
-                  <img
-                    class="imagenes"
-                    src="../images/mobiliario.jpg"
-                    alt="mobiliario"
-                  />
+          </section>
+          <section class="candy-card">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                  <img src="../images/mobiliario.jpg" alt="Mobiliario" class="img-fluid imagenes" />
+                </div>
+                <div class="col-md p-5">
+                  <h2 class="text-white">Elige Tu Mobiliario</h2>
+                  <p class="lead text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                    doloribus distinctio sit. Assumenda, perferendis doloremque.
+                  </p>
+               
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-      </div>
+          </section>
+      
     </main>
     <!--COMIENZA EL FOOTER-->
-    <div class="container-fluid">
-      <footer class="bg-light text-center text-lg-start">
-        <div
-          class="row text-center"
-          style="background-color: rgba(45, 45, 238, 0)"
-        >
-          <div class="col"></div>
-          <div class="col">Creada por Jorge Avalos &copy; Copyright 2023</div>
-          <div class="col d-flex justify-content-end">
+  <footer>
+    <section class="py-3 text-center text-sm-start pie">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h6>Creada por Jorge Avalos &copy; Copyright 2023</h6>
+            
+          </div class="d-sm-flex align-items-left footer-sm">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </section>
+  </footer>
+    
 
     <!-- JS Bootstrap -->
     <script
