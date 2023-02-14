@@ -40,7 +40,7 @@
 
 /* Pagina de contactos */
 .contact_form {
-  width: 460px;
+  width: 25rem;
   height: auto;
   margin: 80px auto;
   border-radius: 10px;
@@ -52,7 +52,7 @@
 
 input {
   background-color: #fbfbfb;
-  width: 408px;
+  width: 20rem;
   height: 25px;
   border-radius: 5px;
   border-style: solid;
@@ -65,7 +65,7 @@ input {
 
 textarea {
   background-color: #fbfbfb;
-  width: 405px;
+  width: 20rem;
   height: 120px;
   border-radius: 5px;
   border-style: solid;
@@ -94,7 +94,7 @@ label {
   border-color: #ab4493;
   border-style: solid;
   border-radius: 10px;
-  width: 420px;
+  width: auto;
   cursor: pointer;
 }
 
