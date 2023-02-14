@@ -1,28 +1,27 @@
+/* .logo img {
+  max-width: 10%;
+} */
+
 /* Footer */
 .footer {
   background-color: #6969ff;
-  height: 5% vh;
+  height: 5%vh;
 }
-
 .footer .container {
   background-color: #6969ff;
 }
-
 .footer-sm {
   text-align: center;
   background-color: #6969ff;
   color: white;
 }
-
 .footer-sm a {
   color: white;
 }
-
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
 }
-
 .footer-sm__icons {
   text-align: center;
   padding: 1.5rem 0;
@@ -38,7 +37,31 @@
   color: blue;
 }
 
+.menu {
+  padding: 8rem;
+  background-color: #89004f;
+}
+
+.candy {
+  padding-top: 8rem;
+  background-color: #89004f;
+}
+.candy-card {
+  padding-bottom: 2rem;
+  background-color: #89004f;
+}
+/* -------------- */
+img.imagenes {
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+/* body {
+  padding-bottom: 15rem;
+} */
+
 /* Pagina de contactos */
+
 .contact_form {
   width: 460px;
   height: auto;
@@ -203,10 +226,13 @@ p {
     padding-top: 10px;
   }
 }
+
 .card:hover,
 .card:focus-within {
   transform: scale(1.05);
 }
+
+/*consultar si el mecanismo de entrada primario del usuario puede hacer hover*/
 
 @media (hover) {
   .card-content {
@@ -219,25 +245,3 @@ p {
   }
   /*  */
 }
-.menu {
-  padding: 8rem;
-  background-color: #89004f;
-}
-
-.candy {
-  padding-top: 8rem;
-  background-color: #89004f;
-}
-
-.candy-card {
-  padding-bottom: 2rem;
-  background-color: #89004f;
-}
-
-/* -------------- */
-img.imagenes {
-  margin-top: 2rem;
-  border-radius: 20px;
-}
-
-/*# sourceMappingURL=styles.css.map */
