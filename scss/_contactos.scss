@@ -1,5 +1,3 @@
-/* Pagina de contactos */
-
 input {
   background-color: #fbfbfb;
   width: 20rem;
@@ -48,34 +46,8 @@ label {
   cursor: pointer;
 }
 
-button p {
-  color: #fff;
-}
-
-span {
-  color: #ab4493;
-}
-
 .aviso {
   font-size: 13px;
-  color: #0e0e0e;
-}
-
-h1 {
-  font-size: 30px;
-  text-align: center;
-  padding-bottom: 20px;
-  color: #ab4493;
-}
-
-h3 {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0e0e0e;
-}
-
-p {
-  font-size: 14px;
   color: #0e0e0e;
 }
 
@@ -87,16 +59,16 @@ p {
   color: #a8a8a8;
 }
 
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848;
+.formulario {
+  input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
+  textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+  }
 }
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-
 @media (max-width: 768px) {
   .navbar-brand img {
     visibility: hidden;
@@ -104,7 +76,7 @@ p {
   }
   input {
     background-color: #fbfbfb;
-    width: 300px;
+    width: 15rem;
     height: 25px;
     border-radius: 5px;
     border-style: solid;
@@ -126,12 +98,12 @@ p {
     border-color: #ab4493;
     border-style: solid;
     border-radius: 10px;
-    width: 300px;
+    width: 15rem;
     cursor: pointer;
   }
   textarea {
     background-color: #fbfbfb;
-    width: 300px;
+    width: 15rem;
     height: 90px;
     border-radius: 5px;
     border-style: solid;

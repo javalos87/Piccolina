@@ -24,9 +24,13 @@
   padding: 1.5rem 0;
 }
 
-.col a i {
-  font-size: 1rem;
-  margin-left: 1rem;
+.col {
+  a {
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
 }
 
 .pie {
