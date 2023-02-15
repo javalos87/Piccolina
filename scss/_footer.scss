@@ -1,23 +1,24 @@
-/* Footer */
 .footer {
-  background-color: #6969ff;
+  background-color: $color-fondo-footer;
   height: 5%vh;
+  .container {
+    background-color: $color-fondo-footer;
+  }
 }
-.footer .container {
-  background-color: #6969ff;
-}
+
 .footer-sm {
   text-align: center;
-  background-color: #6969ff;
+  background-color: $color-fondo-footer;
   color: white;
+  a {
+    color: white;
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
 }
-.footer-sm a {
-  color: white;
-}
-.footer-sm a i {
-  font-size: 1rem;
-  margin-left: 1rem;
-}
+
 .footer-sm__icons {
   text-align: center;
   padding: 1.5rem 0;
@@ -29,6 +30,6 @@
 }
 
 .pie {
-  background-color: rgb(29, 27, 27);
-  color: blue;
+  background-color: $color-fondo-pie;
+  color: $color-pie;
 }

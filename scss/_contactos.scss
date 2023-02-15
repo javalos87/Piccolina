@@ -1,16 +1,5 @@
 /* Pagina de contactos */
 
-.contact_form {
-  width: 25rem;
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: #fbfbfb;
-  padding-left: 30px;
-}
-
 input {
   background-color: #fbfbfb;
   width: 20rem;
@@ -113,16 +102,6 @@ p {
     visibility: hidden;
     width: 2rem;
   }
-  .contact_form {
-    width: 360px;
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;
-    padding-top: 0;
-    padding-bottom: 0;
-    background-color: #fbfbfb;
-    padding-left: 30px;
-  }
   input {
     background-color: #fbfbfb;
     width: 300px;
@@ -165,7 +144,8 @@ p {
   }
 }
 
-.card:hover,
-.card:focus-within {
-  transform: scale(1.05);
+.card {
+  &:hover {
+    transform: scale(1.05);
+  }
 }
