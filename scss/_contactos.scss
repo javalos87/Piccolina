@@ -71,4 +71,7 @@ label {
   &:hover {
     transform: scale(1.05);
   }
+  &:focus-within {
+    transform: scale(1.05);
+  }
 }

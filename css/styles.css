@@ -150,6 +150,9 @@ label {
 .card:hover {
   transform: scale(1.05);
 }
+.card:focus-within {
+  transform: scale(1.05);
+}
 
 @media (hover) {
   .card-content {
