@@ -30,9 +30,15 @@ textarea, input {
 }
 
 h1 {
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
+  font-size: 32px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 20px;
+  color: #ab4493;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   padding-bottom: 20px;
   color: #ab4493;
 }
@@ -44,8 +50,8 @@ h3 {
 }
 
 p {
-  font-size: 14px;
-  color: #0e0e0e;
+  font-size: 18px;
+  color: blue;
 }
 
 span {
