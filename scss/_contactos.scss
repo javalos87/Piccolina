@@ -14,19 +14,7 @@ label {
 }
 
 .button1 {
-  height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #ab4493;
-  border-color: #ab4493;
-  border-style: solid;
-  border-radius: 10px;
-  width: auto;
-  cursor: pointer;
+  @extend %boton;
 }
 
 .aviso {
