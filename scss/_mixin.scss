@@ -1,0 +1,6 @@
+@mixin formato_v($w, $h, $mt, $pl) {
+  width: $w;
+  height: $h;
+  margin-top: $mt;
+  padding-left: $pl;
+}

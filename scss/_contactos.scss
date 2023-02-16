@@ -1,28 +1,11 @@
 input {
-  background-color: #fbfbfb;
-  width: 20rem;
-  height: 25px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ab4493;
-  margin-top: 1rem;
-  padding-left: 10px;
-  margin-bottom: 20px;
+  @extend %formato;
+  @include formato_v(20rem, 25px, 1rem, 10px);
 }
 
 textarea {
-  background-color: #fbfbfb;
-  width: 20rem;
-  height: 120px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ab4493;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 10px;
-  padding-top: 10px;
+  @extend %formato;
+  @include formato_v(20rem, 150px, 10px, 10px);
 }
 
 label {
@@ -75,44 +58,12 @@ label {
     width: 2rem;
   }
   input {
-    background-color: #fbfbfb;
-    width: 15rem;
-    height: 25px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ab4493;
-    margin-top: 1rem;
-    padding-left: 5px;
-    margin-bottom: 10px;
-  }
-  .button1 {
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #ab4493;
-    border-color: #ab4493;
-    border-style: solid;
-    border-radius: 10px;
-    width: 15rem;
-    cursor: pointer;
+    @extend %formato;
+    @include formato_v(15rem, 25px, 1rem, 5px);
   }
   textarea {
-    background-color: #fbfbfb;
-    width: 15rem;
-    height: 90px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ab4493;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    padding-top: 10px;
+    @extend %formato;
+    @include formato_v(15rem, 120px, 10px, 10px);
   }
 }
 
