@@ -53,6 +53,11 @@ label {
     @extend %formato;
     @include formato_v(15rem, 120px, 10px, 10px);
   }
+  .vh_100 {
+    height: 100vh /* !important */;
+  }
+}
+@media (max-width: 600px) {
 }
 
 .card {

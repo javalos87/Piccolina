@@ -145,6 +145,9 @@ label {
     margin-top: 10px;
     padding-left: 10px;
   }
+  .vh_100 {
+    height: 100vh;
+  }
 }
 .card:hover {
   transform: scale(1.05);
@@ -164,7 +167,7 @@ label {
   }
 }
 .menu {
-  padding: 8rem;
+  /*  padding: 8rem; */
   background-color: #89004f;
 }
 
